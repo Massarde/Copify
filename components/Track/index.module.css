@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+.MAIN_CONTAINER {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0.5rem 0.1rem 0.5rem 0.5rem;
+  padding: 0.2rem;
+  border-radius: 12px;
+  background-color: #20202060;
+  max-width: 100%;
+}
+
+.MAIN_CONTAINER .img_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75px;
+  height: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .MAIN_CONTAINER .img_container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+}
+
+.MAIN_CONTAINER .track_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 90%;
+}
+
+.MAIN_CONTAINER .track_container .description {
+  text-align: start;
+  margin-left: 1rem;
+}
+
+.MAIN_CONTAINER .track_container .description h4 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.3rem;
+}
+
+.MAIN_CONTAINER .icons_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.MAIN_CONTAINER .icons_container .circle_headPhones {
+  margin-right: 0.8rem;
+  font-size: 1.6rem;
+  color: #bbb9b9;
+}
+
+.MAIN_CONTAINER .icons_container .circle_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 2px solid #3a3a3a;
+  border-radius: 30px;
+  width: 75px;
+  height: 36px;
+}
+
+@media (max-width: 640px) {
+  .MAIN_CONTAINER .icons_container .circle_icons {
+    border: 0px solid #3a3a3a;
+    width: 40px;
+    height: 36px;
+  }
+}
+
+.MAIN_CONTAINER .icons_container .circle_icons .heart_container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 0.4rem;
+  cursor: pointer;
+}
+
+.MAIN_CONTAINER .icons_container .circle_icons .heart_container .icon_heart {
+  position: absolute;
+  left: 0;
+  font-size: 1.3rem;
+  color: #bbb9b9;
+  -webkit-transition: ease-in-out 0.1s;
+  transition: ease-in-out 0.1s;
+}
+
+@media (max-width: 640px) {
+  .MAIN_CONTAINER .icons_container .circle_icons .heart_container .icon_heart {
+    display: none;
+  }
+}
+
+.MAIN_CONTAINER .icons_container .circle_icons .heart_container .icon_heart_selected {
+  color: #018f24;
+}
+
+.MAIN_CONTAINER .icons_container .circle_icons .heart_container .icon_heart:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.MAIN_CONTAINER .icons_container .circle_icons .player_container {
+  margin-bottom: -0.2rem;
+}
+
+.MAIN_CONTAINER .icons_container .circle_icons .player_container .icon_play {
+  color: #bbb9b9;
+  font-size: 2.2rem;
+  border-radius: 50%;
+  padding: 0.4rem 0.4rem 0.4rem 0.6rem;
+  margin-right: -0.1rem;
+  border: 2px solid #8d8c8c;
+  cursor: pointer;
+}
+
+.MAIN_CONTAINER .icons_container .circle_icons .player_container .icon_play:hover {
+  background-color: #018f24;
+  color: white;
+  border: 2px solid #018f24;
+}
+
+.MAIN_CONTAINER .icons_container .circle_icons .player_container .icon_pause {
+  background-color: #018f24;
+  color: white;
+  border: 2px solid #018f24;
+  font-size: 2.2rem;
+  border-radius: 50%;
+  padding: 0.4rem;
+  margin-right: -0.1rem;
+  cursor: pointer;
+}
+
+.MAIN_CONTAINER .icons_container .play_btn_dark {
+  color: #2c2c2c;
+  font-size: 1.5rem;
+  margin-right: 0.8rem;
+}
+
+@media (max-width: 640px) {
+  .MAIN_CONTAINER .icons_container .play_btn_dark {
+    margin-right: 0.2rem;
+  }
+}
+
+.MAIN_CONTAINER .icons_container .play_btn {
+  color: #2bc304;
+  -webkit-animation: play_headphones 0.5s linear infinite;
+          animation: play_headphones 0.5s linear infinite;
+  font-size: 1.5rem;
+  margin-right: 0.8rem;
+}
+
+@media (max-width: 640px) {
+  .MAIN_CONTAINER .icons_container .play_btn {
+    margin-right: 0.2rem;
+  }
+}
+
+@-webkit-keyframes play_headphones {
+  0% {
+    color: #2bc304;
+  }
+  100% {
+    color: #90ce53;
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+}
+
+@keyframes play_headphones {
+  0% {
+    color: #2bc304;
+  }
+  100% {
+    color: #90ce53;
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+}
+
+.MAIN_CONTAINER:hover {
+  background-color: #272727af;
+}
+/*# sourceMappingURL=index.module.css.map */

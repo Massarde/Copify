@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AGGA,OAAO,CAAC,6IAAI;AHDZ,AAAA,eAAe,CAAC;EACf,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,GAAG;CACZ",
+    "sources": [
+        "index.module.scss",
+        "../../styles/_ma1n.module.scss",
+        "../../styles/utils/_mixing.module.scss",
+        "../../styles/utils/_variable.module.scss",
+        "../../styles/utils/_media.module.scss",
+        "../../styles/utils/_btn.module.scss",
+        "../../styles/utils/_animations.module.scss"
+    ],
+    "names": [],
+    "file": "index.module.css"
+}

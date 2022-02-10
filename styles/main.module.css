@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+.loaderContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+.loaderContainer .CountUp {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.loaderContainer .barLoading {
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: white;
+  width: 100%;
+  height: 2px;
+  -webkit-animation: loadingBar 6s forwards;
+          animation: loadingBar 6s forwards;
+}
+
+@-webkit-keyframes loadingBar {
+  0% {
+    left: -50%;
+    height: 2px;
+  }
+  29% {
+    left: 50%;
+    height: 2px;
+  }
+  30% {
+    left: 50%;
+    height: 2px;
+  }
+  39% {
+    left: 50%;
+    height: 100vh;
+  }
+  40% {
+    left: 50%;
+    height: 100vh;
+  }
+  41% {
+    left: 50%;
+    height: 100vh;
+  }
+  45% {
+    left: 50%;
+    height: 100vh;
+  }
+  100% {
+    left: 50%;
+    height: 100vh;
+  }
+}
+
+@keyframes loadingBar {
+  0% {
+    left: -50%;
+    height: 2px;
+  }
+  29% {
+    left: 50%;
+    height: 2px;
+  }
+  30% {
+    left: 50%;
+    height: 2px;
+  }
+  39% {
+    left: 50%;
+    height: 100vh;
+  }
+  40% {
+    left: 50%;
+    height: 100vh;
+  }
+  41% {
+    left: 50%;
+    height: 100vh;
+  }
+  45% {
+    left: 50%;
+    height: 100vh;
+  }
+  100% {
+    left: 50%;
+    height: 100vh;
+  }
+}
+
+.mainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100%;
+  min-height: 86vh;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+/*# sourceMappingURL=main.module.css.map */

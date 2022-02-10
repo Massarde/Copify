@@ -1,0 +1,8 @@
+# *
+User-agent: *
+
+# Host
+Host: https://sfyclone.vercel.app
+
+# Sitemaps
+Sitemap: https://sfyclone.vercel.app/sitemap.xml

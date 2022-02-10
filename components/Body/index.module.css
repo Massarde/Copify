@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+.MAIN_CONTAINER {
+  height: 96.5vh;
+  padding-top: 1rem;
+  margin-left: 90px;
+  margin-right: 300px;
+  width: 100%;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .MAIN_CONTAINER {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .MAIN_CONTAINER {
+    margin: auto;
+  }
+}
+
+.MAIN_CONTAINER .cards_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (300px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 300px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow-y: scroll;
+  grid-gap: 1rem;
+  max-width: 85%;
+  min-height: 430px;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+@media (max-width: 1280px) {
+  .MAIN_CONTAINER .cards_container {
+    -ms-grid-columns: (250px)[auto-fill];
+        grid-template-columns: repeat(auto-fill, 250px);
+  }
+}
+
+.MAIN_CONTAINER .cards_container::-webkit-scrollbar {
+  width: 0;
+}
+
+.MAIN_CONTAINER .Genres_Release_Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 2rem;
+  font-family: "Andada Pro";
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 0rem;
+  padding-bottom: 1rem;
+}
+
+.MAIN_CONTAINER .Genres_Release_Container .genres {
+  width: 20%;
+}
+
+@media (max-width: 1536px) {
+  .MAIN_CONTAINER .Genres_Release_Container .genres {
+    background-color: red;
+    display: none;
+  }
+}
+
+.MAIN_CONTAINER .Genres_Release_Container .genres h3 {
+  text-align: start;
+  padding-left: 0.3rem;
+}
+
+.MAIN_CONTAINER .Genres_Release_Container .genres .genres_btn_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 0.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.MAIN_CONTAINER .Genres_Release_Container .genres .genres_btn_container li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #181818;
+  border-radius: 20px;
+  height: 35px;
+  border: 2px solid #3a3a3a;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.MAIN_CONTAINER .Genres_Release_Container .genres button {
+  background-color: #181818;
+  color: white;
+  width: 90%;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 1.3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.MAIN_CONTAINER .Genres_Release_Container .new_release_container {
+  width: 65%;
+}
+
+@media (max-width: 1536px) {
+  .MAIN_CONTAINER .Genres_Release_Container .new_release_container {
+    width: 100%;
+  }
+}
+
+.MAIN_CONTAINER .Genres_Release_Container .new_release_container h3 {
+  text-align: start;
+  padding-left: 1rem;
+}
+
+.MAIN_CONTAINER .Genres_Release_Container .new_release {
+  overflow-y: scroll;
+  background-color: #181818;
+  border: 2px solid #3a3a3a;
+  border-radius: 10px;
+  width: 100%;
+  height: 500px;
+}
+
+.MAIN_CONTAINER .Genres_Release_Container .new_release::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+.MAIN_CONTAINER .Genres_Release_Container .new_release::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.924);
+  background-color: #e4e4e4;
+}
+
+.MAIN_CONTAINER .footer_space {
+  height: 130px;
+  width: 100%;
+}
+/*# sourceMappingURL=index.module.css.map */

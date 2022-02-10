@@ -1,0 +1,53 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# folder/files
+ReadMe
+gitPaths.txt
+styles/utils
+_ma1n.module.scss
+globals.scss
+main.module.scss
+components/body/index.module.scss
+components/SideBar/index.module.scss
+components/Cards/index.module.scss
+components/Dashboard/index.module.scss
+components/Footer/index.module.scss
+components/Loader/index.module.scss
+components/RecentPlayed/index.module.scss
+components/RightBar/index.module.scss
+components/Search/index.module.scss
+components/Track/index.module.scss
+pages/auth/index.module.scss
+# dependencies
+.vscode
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
